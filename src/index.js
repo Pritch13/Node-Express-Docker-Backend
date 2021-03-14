@@ -1,7 +1,7 @@
 const app = require('express')();
 
 app.get('/', (req, res) =>
-    res.json({ message: 'Node express backend with Docker 🐳' })
+    res.json({ message: 'Express server running on Minikube k8s cluster' })
 );
 
 const port = process.env.PORT || 8080;
